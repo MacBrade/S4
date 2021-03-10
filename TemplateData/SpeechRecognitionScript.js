@@ -150,7 +150,7 @@
 				unityInstance.SendMessage ('MainCamera', 'GetResponse', final_span.innerHTML);
 				//-----------------------
 				//Calls the speech recognition again
-				unityInstance.startButton(event) ;
+				startButton(event) ;
 				/* ======================= */
 								
 			  };
