@@ -147,10 +147,10 @@
 				/* ======================= */
 				//-----------------------
 				//Unity 3D
-				SendMessage ('MainCamera', 'GetResponse', final_span.innerHTML);
+				unityInstance.SendMessage ('MainCamera', 'GetResponse', final_span.innerHTML);
 				//-----------------------
 				//Calls the speech recognition again
-				startButton(event) ;
+				unityInstance.startButton(event) ;
 				/* ======================= */
 								
 			  };
